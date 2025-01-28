@@ -318,7 +318,7 @@
             position: absolute;
             right: 2rem;
             top: 2rem;
-            color: white;
+            color: rgb(25, 84, 244);
             cursor: pointer;
             font-size: 2rem;
             z-index: 1001;
@@ -702,12 +702,6 @@
                             ]
                         }
                     }
-                },
-                {
-                    title: "Bitcoin Predictor",
-                    description: "Python-based Bitcoin price prediction tool using the ElKulako/cryptobert AI model",
-                    tech: ["Python", "Data Analysis"],
-                    type: "ai"
                 }
             ],
             web: [
@@ -924,7 +918,8 @@
                             <button 
                                 data-project='${JSON.stringify(project).replace(/'/g, "&#39;").replace(/"/g, "&quot;")}'
                                 onclick="openModalFromData(this)" 
-                                class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors">
+                                class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+                                style = "border-radius: 5px; padding: 5px; margin-top: 8px; border: none; background-color: #6699ff;">
                                 View Gallery
                             </button>
                         ` : ''}
